@@ -8,11 +8,10 @@ body{
 }
 .header{
     background-color: red;
-    margin-bottom: 48px;
+    margin: 40px auto;
     z-index: 99;
     position: relative;
     max-width: 700px;
-    margin: 0 auto;
 }
 .header h1{
     margin-bottom: 16px;
@@ -83,4 +82,24 @@ body{
     background-color: aqua;
     display: flex;
     gap: 24px;
+}
+.code-card{
+    background-color: #21242a;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 24px;
+    width: 50%;
+
+}
+.code-title{
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.code-block{
+    background-color: #0a0c10;
+    color: #5eead4;
+    border-radius: 8px;padding: 16px;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
