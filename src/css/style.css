@@ -1,0 +1,86 @@
+body{
+    background-color: #0f131a;
+    color: #ffffff;
+    background: url();
+    font-family: "Roboto Mono", monospace;
+    line-height: 1.4;
+    padding: 32px 24px;
+}
+.header{
+    background-color: red;
+    margin-bottom: 48px;
+    z-index: 99;
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+.header h1{
+    margin-bottom: 16px;
+    font-size: 48px;
+    text-align: center;
+}
+.header .subtitle{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 19px;
+}
+.container{
+    background-color: orange;
+    max-width: 1024px;
+    margin: 0 auto;
+    z-index: 99;
+    position: relative;
+}
+.card {
+    background-color: blue;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 32px;
+}
+.card-header{
+    background-color: green;
+    margin-bottom: 32px;
+    font-size: 20px;
+    text-align: center;
+}
+.form-group textarea{
+    background-color: rgba(255, 255, 255, 0.05);
+    color: #ffffff;
+    width: 100%;
+    min-height: 120px;
+    padding: 16px;
+    border: 1px solid #474646;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.form-group textarea:focus{
+    outline: none;
+    border-color: #a655f7;
+}
+.form-group textarea::placeholder{
+    color: #a19e9e;
+
+}
+.form-group .btn-magic{
+    width: 100%;
+    padding: 16px 32px;
+    background: linear-gradient(90deg, #a655f7 0%, #ff80aa 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.form-group .btn-magic:hover{
+    transform: translateY(-2px);
+}
+.preview-card{
+    display: none;
+}
+.code-grid{
+    background-color: aqua;
+    display: flex;
+    gap: 24px;
+}
